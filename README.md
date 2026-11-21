@@ -61,48 +61,48 @@ Esta organização permite melhorar a manutenção, reutilização, legibilidade
 
 5.1. Estrutura de Pastas
 CDFJ-Opportunity/
-│
-├── main.py
-├── web.py
-├── modelos.py
-├── database.py
-├── excecoes.py
-├── requirements.txt
-├── README.md
-│
-├── database/
-│   └── cdfj_opportunity.db
-│
-├── services/
-│   ├── __init__.py
-│   └── actualizador.py
-│
-├── templates/
-│   ├── base.html
-│   ├── index.html
-│   ├── cadastro.html
-│   ├── login.html
-│   ├── dashboard.html
-│   ├── bolsas.html
-│   ├── mentoria.html
-│   ├── documentacao.html
-│   └── historico.html
-│
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   └── images/
-│
-├── android/
-│   ├── main.py
-│   └── buildozer.spec
-│
-└── tests/
-    ├── test_utilizadores.py
-    ├── test_bolsas.py
-    └── test_servicos.py
+
+main.py
+web.py
+modelos.py
+database.py
+excecoes.py
+requirements.txt
+README.md
+
+database/
+cdfj_opportunity.db
+
+services/
+__init__.py
+actualizador.py
+
+templates/
+base.html
+index.html
+cadastro.html
+login.html
+dashboard.html
+bolsas.html
+mentoria.html
+documentacao.html
+historico.html
+
+static/
+css/
+style.css
+js/
+script.js
+images/
+
+android/
+main.py
+buildozer.spec
+
+tests/
+test_utilizadores.py
+test_bolsas.py
+test_servicos.py
 5.2. Descrição dos Principais Ficheiros
 Ficheiro	Responsabilidade
 main.py	Ponto de entrada e inicialização da aplicação.
